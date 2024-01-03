@@ -24,6 +24,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .card.hovercard {
   position: relative;
   padding-top: 0;
@@ -40,6 +41,7 @@
   margin: 0 auto;
   position: relative;
 }
+
 .body {
   width: 250px;
   height: 500px;
@@ -48,6 +50,7 @@
   top: 12%;
   left: 22%;
 }
+
 .bikinitop {
   width: 250px;
   height: 500px;
@@ -144,17 +147,54 @@ hr {
   width: 140px;
   text-align: center;
 }
+
 .nav-pills .nav-item .nav-link {
   border: 1px solid #ccc;
   border-radius: 0 !important;
 }
+
 .well {
   background-color: #eff1f1;
   height: 700px;
   width: 100%;
 }
 
+.well{
+  height: fit-content !important; 
+}
+
 .card {
   border: none;
-  padding-top: 30px;
+  padding: 10px;
+  padding-top: 50px !important;
+  display: inline-block;
+}
+.col-sm-12 .card{
+  display: block;
+}
+.card-img-top{
+  width: 200px;
+}
+
+.card-body button{
+  background-color: transparent;
+  border: #121212 3px solid;
+  border-radius: 2%;
+  width: 100%;
+  color: black;
+}
+
+.card-body button:hover{
+  border: #000000 2px solid;
+  background-color: gray !important; 
+}
+
+.bikinitop {
+  z-index: 2;
+}
+.feet {
+  z-index: 0;
+}
+.necklace {
+  z-index: 3;
 }
